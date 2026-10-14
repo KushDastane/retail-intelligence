@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Linters
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Jupyter & IDEs
+.ipynb_checkpoints
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (keep raw input and generated processed files out of version control)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Database & artifacts
+*.db
+*.sqlite
+*.sqlite3
+scratch/
+
+# Windows & OS
+Thumbs.db
+Desktop.ini
+.DS_Store

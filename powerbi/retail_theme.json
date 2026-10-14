@@ -1,0 +1,36 @@
+{
+  "name": "RetailIntelligenceTheme",
+  "dataColors": [
+    "#0F766E",
+    "#0284C7",
+    "#E11D48",
+    "#F59E0B",
+    "#64748B",
+    "#475569",
+    "#059669",
+    "#7C3AED"
+  ],
+  "background": "#F8FAFC",
+  "foreground": "#1E293B",
+  "tableAccent": "#0F766E",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#1E293B" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#E2E8F0" } }
+          }
+        ]
+      }
+    }
+  }
+}
